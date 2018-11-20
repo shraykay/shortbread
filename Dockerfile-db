@@ -1,0 +1,2 @@
+FROM postgres:9.6.3
+COPY db/00_setup.sql /docker-entrypoint-initdb.d/00_structure.sql
